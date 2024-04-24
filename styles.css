@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to bottom right, #8a2be2, #a74bc1);  /* Fallback color */
+    
+    display: flex;
+    justify-content: center; /* make it position to center */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-container{
+    background-color: aliceblue;
+    color: black;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    border: 5px solid #444444; /* Use a solid border with a yellowish color */
+    border-radius: 15px; /* Optional: Add border-radius for rounded corners */
+    
+}
+
+.quiz-header{
+    padding: 2rem;
+}
+img{
+    width: 70px; /* img size */
+}
+button{
+    background: linear-gradient(to bottom right, #f7ff17, #f58dff);  /* Fallback color */
+    display: block;
+    color: beige;
+    width: 100%;
+    padding: 2rem;
+    font-style: italic;
+    font-size: 70px;
+}
+ul{
+    list-style-type: none; /* remove black dot of ul lists */
+}
+
+ul li label{
+    cursor: pointer;  /* so that pointer is more acc, add to radon its recomended*/
+}
